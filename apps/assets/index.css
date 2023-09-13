@@ -1,0 +1,70 @@
+.secondaryDiv{
+    display: flex;
+    flex-direction: column;
+}
+.divGraficos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 auto;
+    border: none;
+    color: white;
+    background-color: #1f1e1e;
+}
+.divgrafico{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.grafico{
+    width:70%
+}
+#dropdownac{
+    width:60%;
+    color: black;
+}
+#dropdowngy{
+    width:60%;
+    color: black;
+}
+/*CORES DA VALE:
+    Verde : #007E7A
+    Amarelo : #ECB11F
+    Cinza : #919191*/
+.fonte{
+    font-family: "PMN Caecilia Roman";
+    color: #007E7A;
+    width: 75%;
+    text-align: center;
+    padding-top: 50px;
+}
+.header{ 
+    background-color: #DAD8D8;   
+    box-shadow: 5px 10px 8px #919191;
+    display: flex;
+}
+.logo{
+    width: 250px;
+}
+.curvaPadrao{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+.dropDownFont{
+    font-family: 'Roboto', sans-serif;
+}
+.graficoBackGround{
+    background-color: aliceblue;
+    
+}
+
+ /*para fazer a div primária pegar o topo da página*/
+ body { 
+    margin: 0; 
+}
